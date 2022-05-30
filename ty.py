@@ -13,3 +13,7 @@ def false():
         print(k)
 
 false()
+
+class Dog:
+    def __init__(self):
+        pass
