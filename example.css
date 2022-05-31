@@ -1,0 +1,13 @@
+h1{
+  color: red;
+}
+li{
+  color: rgb(200,0,0);
+}
+p{
+  color: #a624ab;
+}
+body{
+  background: url(https://images.unsplash.com/photo-1618821545945-e91f1b97a906?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+  background-repeat: no-repeat;
+}

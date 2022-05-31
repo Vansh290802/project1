@@ -1,0 +1,17 @@
+.phela{
+  background: yellow;
+  border: blue 5px dashed;
+  font-family: cursive;
+  font-size: 30px
+}
+.dusra{
+  background: gray
+}
+span{
+  background: red;
+  color: black;
+  border: red 4px dotted;
+}
+#tatta{
+  background: green
+}
