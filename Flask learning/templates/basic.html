@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>AA laude {{name}}</h1>
+    <h1>{{letters}}</h1>
+    <h1>{{vanshgf}}</h1>
+    <h2>yeh le ludo</h2>
+
+    <ul>
+      {% for item in mylist %}
+      <li>{{item}}</li>
+      {% endfor %}
+    </ul>
+    {% for item in gfs %}
+    <li>{{item}}</li>
+    {% endfor %}
+
+    {% if "tosh" in gfs %}
+      <p>BEST ONE YAAR</p>
+    {% else %}
+      <p>Arey YAr</p>
+    {% endif %}
+
+
+  </body>
+</html>
