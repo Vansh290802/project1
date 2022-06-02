@@ -1,0 +1,25 @@
+{% extends "formbasic.html" %}
+
+{% block content %}
+<div class="jumbotron">
+  {% if final %}
+    <p>Thank you tharki lunda {{first}} {{last}}</p>
+  {% else %}
+  <ul>
+    {% if not contains_digit_first %}
+      <li>Abe bhai first name mai number hai kya tera</li>
+    {% endif %}
+    {% if not contains_digit_last %}
+       <li>Abe bhai last name mai kaise number hoga lodu</li>
+    {% endif %}
+  </ul>
+
+
+
+  {% endif %}
+
+
+
+
+</div>
+{% endblock %}
